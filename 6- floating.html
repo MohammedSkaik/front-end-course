@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 
+        Floating and clear
+        float: (left, right)
+        clear
+    -->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .products {
+            background-color: aqua;
+            padding: 10px;
+        }
+
+        .products .product {
+            background-color: #eee;
+            padding: 10px;
+            float: right;
+            width: 25%
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="products">
+        <div class="product">Product 1</div>
+        <div class="product">Product 2</div>
+        <div class="product">Product 3</div>
+        <div class="product">Product 4</div>
+        <div class="clear"></div>
+    </div>
+    <div>نص تجريبي هنا</div>
+</body>
+
+</html>
